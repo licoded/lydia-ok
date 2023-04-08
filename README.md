@@ -4,8 +4,8 @@
 
 Because in the code of lydia, it use `system("dot XXX")`, and dot is a command of graphviz.
 
-- `lib/src/utils/dfa_transform.cpp` -- at 120 line
-- `lib/src/mona_ext/mona_ext_base.cpp` -- at 310 line
+- `lib/src/utils/dfa_transform.cpp` -- at [120 line](https://github.com/whitemech/lydia/blob/main/lib/src/utils/dfa_transform.cpp#L120)
+- `lib/src/mona_ext/mona_ext_base.cpp` -- at [310 line](https://github.com/whitemech/lydia/blob/main/lib/src/mona_ext/mona_ext_base.cpp#L310)
 
 ### How to install
 
