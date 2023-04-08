@@ -12,7 +12,7 @@ Because in the code of [whitemech/lydia](https://github.com/whitemech/lydia), it
 **Ubuntu:**
 
 ```bash
-sudo apt install libgraphviz-dev graphviz
+sudo apt install graphviz
 ```
 
 **Centos:**
