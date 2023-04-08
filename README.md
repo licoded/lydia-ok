@@ -23,9 +23,11 @@ yum install graphviz
 
 ## Usage
 
+> Note: Execute `cd lydia-ok` first!
+
 For example, this command translates the LDLf formula in the file `examples/liveness.ldlf` to a DFA:
 ```
-lydia -l ldlf -f examples/liveness.ldlf -g liveness
+./lydia -l ldlf -f examples/liveness.ldlf -g liveness
 ```
 
 The output is in `liveness.svg`.
@@ -33,5 +35,5 @@ The output is in `liveness.svg`.
 To do synthesis of an LTLf formula, you have to provide both the path to the formula
 e.g. `examples/counter_1.ltlf` and a file to the partition file, e.g. `examples/counter_1.part`:
 ```
-lydia -l ltlf -f examples/counter_1.ltlf --part examples/counter_1.part
+./lydia -l ltlf -f examples/counter_1.ltlf --part examples/counter_1.part
 ```
