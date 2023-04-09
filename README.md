@@ -21,6 +21,12 @@ sudo apt install graphviz
 yum install graphviz
 ```
 
+**Manually:**
+
+```
+sh -x scripts/graphviz-install.sh
+```
+
 ## Usage
 
 > Note: Execute `cd lydia-ok` first!
